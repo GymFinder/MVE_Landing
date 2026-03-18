@@ -11,12 +11,12 @@
   2. Copy your Measurement ID (looks like: G-XXXXXXXXXX)
   3. Replace BOTH instances of YOUR_GA_ID below with it
 ============================================================ -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R38WPF7GR5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){ dataLayer.push(arguments); }
   gtag('js', new Date());
-  gtag('config', 'YOUR_GA_ID');
+  gtag('config', 'G-R38WPF7GR5);
 
   function trackClick(label) {
     gtag('event', 'cta_click', { event_category: 'MVE', event_label: label });
@@ -588,7 +588,7 @@
       3. Replace YOUR_FORMSPREE_ENDPOINT in the action below
     ============================================================ -->
     <form class="email-form" id="signupForm"
-          action="YOUR_FORMSPREE_ENDPOINT"
+          action="https://formspree.io/f/xeerpwal"
           method="POST">
       <input type="email" name="email" id="emailInput" placeholder="your@work-email.com" required />
       <!-- Hidden fields — Formspree captures these too, great for MVE context -->
